@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+    <form id="f1">
+    <h2> Register</h2>
+    <label> ID : </lable>
+    <input type="text" name="id" id="id" placeholder="Enter unique ID"><br>
+    <label> Name: </lable>
+    <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+    <label> Age : </label>
+    <input type="number"  name="age" id="age" placeholder="Enter Age"><br>
+    <label> Phone number : </label>
+    <input type="number" name="pno" id="pno" placeholder="Enter Phone number">
+    <button id="sub">SUBMIT</button>
+    <button id="update">UPDATE</button>
+    </form>
+    <div class="container-4">
+        <label> DELETE : </label>
+        <input type="text"  name="del_id" id="del_id" placeholder="Enter Id to delete"><br>
+        <button id="dltbtn" style="margin-top: 0.2px;">DELETE</button><br><br>
+        <label> Read Data : </label><br>
+        <button id="rdbtn">READ</button>
+    </div>
+    </div>
+
+    <div class="container-3">
+        <p id="message"></p>
+    </div>
+
+    <div class="container-2" id="table_data">   
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
